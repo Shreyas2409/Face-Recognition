@@ -30,10 +30,10 @@ import sys
 from google.colab import drive
 drive.mount('/content/drive')
 
-Train = "/content/drive/MyDrive/COEN240/train" # Training dataset
-Test = "/content/drive/MyDrive/COEN240/faces"  # Modified Test dataset used for model training
-Test2 = "/content/drive/MyDrive/COEN240/test" # Test data to evaluate the model
-Labels = "/content/drive/MyDrive/COEN240/test/labels.txt" # Labels of Test data to evaluate the model after training
+Train = " " # Training dataset
+Test = " "  # Modified Test dataset used for model training
+Test2 = " " # Test data to evaluate the model
+Labels = " " # Labels of Test data to evaluate the model after training
 categories = os.listdir(Train)
 categories.remove('.DS_Store')
 data_train = []
