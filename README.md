@@ -1,3 +1,3 @@
 # Face-Recognition
 
-### Achieved accurate face recognition capabilities through a model employing SVM, Random Forest, and PDA, demonstrating effectiveness in accomplishing project goals.
+### Developed an advanced face recognition system by converting images to grayscale and extracting features using Haar Cascade, which were saved in pickle format. Principal Discriminant Analysis (PDA) was employed for dimensionality reduction. Multiple classifiers, including Support Vector Machine (SVM), Random Forest, and Logistic Regression, were trained on the processed data. The SVM classifier achieved the highest accuracy, demonstrating the system's effectiveness in accurately recognizing faces.
