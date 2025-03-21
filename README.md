@@ -2,7 +2,7 @@
 
 
 ## Overview
-FaceID Pro is an advanced face recognition system designed to accurately identify individuals using a robust image processing pipeline. The system converts images to grayscale and extracts key facial features using Haar Cascade. These features are then serialized using pickle for efficient storage. To optimize the data, Principal Discriminant Analysis (PDA) is employed for dimensionality reduction. Multiple classifiers—including Support Vector Machine (SVM), Random Forest, and Logistic Regression—are trained on the processed data, with the SVM classifier achieving the highest accuracy.
+An advanced face recognition system designed to accurately identify individuals using a robust image processing pipeline. The system converts images to grayscale and extracts key facial features using Haar Cascade. These features are then serialized using pickle for efficient storage. To optimize the data, Principal Discriminant Analysis (PDA) is employed for dimensionality reduction. Multiple classifiers—including Support Vector Machine (SVM), Random Forest, and Logistic Regression—are trained on the processed data, with the SVM classifier achieving the highest accuracy.
 
 ## Features
 - **Grayscale Conversion:** Simplifies images by converting them to grayscale for efficient processing.
